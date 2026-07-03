@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e40af"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- ticket -->
+  <g transform="rotate(-8 256 256)">
+    <rect x="86" y="166" width="340" height="180" rx="22" fill="#fef3c7" stroke="#b45309" stroke-width="10"/>
+    <circle cx="86" cy="256" r="26" fill="#172554"/>
+    <circle cx="426" cy="256" r="26" fill="#172554"/>
+    <line x1="150" y1="186" x2="150" y2="326" stroke="#b45309" stroke-width="8" stroke-dasharray="4 16" stroke-linecap="round"/>
+    <!-- train cars on the ticket -->
+    <rect x="188" y="220" width="60" height="36" rx="8" fill="#dc2626"/>
+    <rect x="258" y="220" width="60" height="36" rx="8" fill="#16a34a"/>
+    <rect x="328" y="220" width="60" height="36" rx="8" fill="#facc15"/>
+    <circle cx="204" cy="268" r="9" fill="#172554"/>
+    <circle cx="232" cy="268" r="9" fill="#172554"/>
+    <circle cx="274" cy="268" r="9" fill="#172554"/>
+    <circle cx="302" cy="268" r="9" fill="#172554"/>
+    <circle cx="344" cy="268" r="9" fill="#172554"/>
+    <circle cx="372" cy="268" r="9" fill="#172554"/>
+    <rect x="188" y="292" width="200" height="14" rx="7" fill="#b45309" opacity="0.45"/>
+  </g>
+</svg>
