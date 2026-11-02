@@ -11,7 +11,8 @@ const config = defineConfig({
   resolve: { tsconfigPaths: true },
   plugins: [
     devtools(),
-    cloudflare({ viteEnvironment: { name: 'ssr' } }),
+    // The plugin rejects the resolve.external that Vitest sets on the ssr environment.
+    ...(process.env.VITEST ? [] : [cloudflare({ viteEnvironment: { name: 'ssr' } })]),
     tailwindcss(),
     tanstackStart(),
     viteReact(),
